@@ -7,7 +7,7 @@ include_directories(${GTEST_INCLUDE_DIRECTORIES})
 enable_testing()
 
 file(GLOB_RECURSE STACK_TEST_SOURCES tests.cpp)
-set(EXEC_NAME test)
+set(EXEC_NAME stack_test)
 
 add_executable(${EXEC_NAME} ${STACK_TEST_SOURCES})
 
